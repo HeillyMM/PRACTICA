@@ -1,16 +1,28 @@
-<html>
+<!--Indica el inicio del documento HTML-->
+ <html>
+<!--Información de configuración-->
     <head>
-        <title>Datos de Mascota</title>
+        <!--Titulo que aparece en la pestaña-->
+        <title>Ejercicio 16-1</title>
     </head>
+    <!--contenido visible en la página-->
     <body>
+        <!--Centreamos todo el contenido que se va a mostrar en la página-->
         <center>
+            <!--Definimos titulo de la página-->
             <h2>Registrando a mi Mascota</h2>
+            <!--Creamos un formulario-->
             <form action="EJ016_02_MAMANI_MOLLINEDO_HELEN_KEILLY.html" method="post">
+                <!--Dentro del formulario creamos una tabla para insertar y enviar los datos-->
                 <table border="1">
+                <!--Creamos las filas de este formulario/tabla-->
                     <tr>
+                        <!--Definimos qué dato hay que ingresar-->
                         <td>Nombre de mascota</td>
+                        <!--Campo paraq insertar dato pedido-->
                         <td><input type="text" name="txtnombre"></td>
                     </tr>
+                    <!--Repetimos lo mismo para edad, raza, color y peso...-->
                     <tr>
                         <td>Edad</td>
                         <td><input type="text" name="txtnombre"></td>
@@ -27,6 +39,7 @@
                         <td>Peso</td>
                         <td><input type="text" name="txtnombre"></td>
                     </tr>
+                    <!--Definimos una fila para el botón de enviar los datos ingresados en el formulario. Este nos enviará a otra página-->
                     <tr>
                         <td colspan="2" align="center"><input type="submit" name="enviar"></td>
                     </tr>

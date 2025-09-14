@@ -1,16 +1,28 @@
-<html>
+<!--Indica el inicio del documento HTML-->
+ <html>
+<!--Información de configuración-->
     <head>
-        <title>Registro</title>
+        <!--Titulo que aparece en la pestaña-->
+        <title>Ejercicio 17-1</title>
     </head>
+    <!--contenido visible en la página-->
     <body>
+        <!--Centreamos el contenido que se mostrará en la página-->
         <center>
+            <!--Titulo de la página principal-->
             <h1>Registro de personas</h1>
+            <!--Definimos un formulario que al eviarse lo llevará a otra página-->
             <form action="EJ017_02_MAMANI_MOLLINEDO_HELEN_KEILLY.html" method="post">
+                <!--Creamos una tabla para enviar datos-->
                 <table>
+                    <!--Creamos las filas de este formulario/tabla-->
                     <tr>
+                        <!--Etiqueta que usamos para definir los datos dentro de esa tabla-->
                         <td>Nombre </td>
+                        <!--Etiqueta para insertar los datos-->
                         <td><input type="text" name="txtnombre"></td>
                     </tr>
+                    <!--Hacemos lo mismo con apellido, edad y género-->
                     <tr>
                         <td>Apellido </td>
                         <td><input type="text" name="txtapellido"></td>
@@ -23,9 +35,11 @@
                         <td>Género </td>
                         <td><input type="text" name="txtgenero"></td>
                     </tr>
+                    <!--Usamos tr para crear una fila en blanco-->
                     <tr>
                         <td><br></td>
                     </tr>
+                    <!--Creamos una fila para poner el botón para enviar los datos insertados dentro del formulario-->
                     <tr>
                         <td colspan="2" align="center"><input type="submit"></td>
                     </tr>
